@@ -1,0 +1,15 @@
+{
+	"name": "adfuberprojectdevenv",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c2fac26f-7937-4b6f-906a-98eea566cb3b",
+		"tenantId": "8548b835-9b36-4b08-953b-f02a2a3e79b0"
+	}
+}
