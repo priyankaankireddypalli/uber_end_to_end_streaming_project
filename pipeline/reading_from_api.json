@@ -101,7 +101,13 @@
 							"outputs": [
 								{
 									"referenceName": "Parquet1",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"filename": {
+											"value": "@item().file",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
