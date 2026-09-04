@@ -16,3 +16,42 @@ Github API to ADLS gen 2
 
 Event hub to databricks
 
+SDP - spark declarative Pipelines 
+DLT is renamed as sdp + Earlier dlt was just databricks product, databricks has contributed dlt or sdp to apache spark.
+
+Apache Spark declarative Pipelines - take care about what and not about how.
+
+What are the benefits of SDP?
+1. automatic orchestration
+2. Declarative processing - auto cdc (takes care of slowly changing dimensions)
+3. Incremental Processing - Materialised views (process the incremental data)
+
+Key concepts
+1. Streaming Sources -- > Streaming Processing (Append Flow, Auto CDC flow) ---> Streaming Target (Sink, Streaming Table)
+2. Batch Source --> Batch Processing (Materialised view flow) --> Batch Target(Materialised View)
+
+   It takes care of everything
+   checkpoint location, files
+   schema
+   state management
+   idempotency
+
+
+Major important
+1. Streaming Tables
+2. Streaming Views
+3. Materialised views
+4. Sink (normal tables)--> data lake
+5. Normal View
+
+Can use sql or pyspark API
+
+SDP has a own code editor, DAG visualizations
+
+
+<img width="791" height="324" alt="image" src="https://github.com/user-attachments/assets/2d06af71-f050-42c2-96a9-a6108d808d2a" />
+
+
+
+
+
