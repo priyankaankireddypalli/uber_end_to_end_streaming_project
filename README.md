@@ -63,5 +63,9 @@ we dont not need to create a pyspark dataframe. why? we create because we are wo
 When we want to load the mapping or static files - always go with pandas dataframe.
 
 
+<img width="761" height="366" alt="image" src="https://github.com/user-attachments/assets/e4ab6bdc-96c2-4329-b686-7389bc10a132" />
+
+
+
 
 
