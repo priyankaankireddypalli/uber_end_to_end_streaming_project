@@ -14,7 +14,7 @@ Github API to ADLS gen 2
 <img width="694" height="402" alt="image" src="https://github.com/user-attachments/assets/cbe6ccaa-c15e-4043-be9d-214334171311" />
 
 
-Event hub to databricks
+Event hub to bronze using databricks 
 
 SDP - spark declarative Pipelines 
 DLT is renamed as sdp + Earlier dlt was just databricks product, databricks has contributed dlt or sdp to apache spark.
@@ -51,6 +51,16 @@ SDP has a own code editor, DAG visualizations
 
 <img width="791" height="324" alt="image" src="https://github.com/user-attachments/assets/2d06af71-f050-42c2-96a9-a6108d808d2a" />
 
+
+ADLS GEN 2 to bronze - using databricks
+
+NOTE: 
+
+When we are reading mapping files
+
+we dont not need to create a pyspark dataframe. why? we create because we are working with the big data. 
+
+When we want to load the mapping or static files - always go with pandas dataframe.
 
 
 
