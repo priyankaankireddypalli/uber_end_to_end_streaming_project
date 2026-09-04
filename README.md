@@ -65,7 +65,10 @@ When we want to load the mapping or static files - always go with pandas datafra
 
 <img width="761" height="366" alt="image" src="https://github.com/user-attachments/assets/e4ab6bdc-96c2-4329-b686-7389bc10a132" />
 
+Initial load is absolutely fine because we receive the data directly in json format
+But when data is loaded via stream, we dont receive the data in good shape. Why? We recieve data from event hub as a string json. So convert it into normal json.
 
+<img width="827" height="404" alt="image" src="https://github.com/user-attachments/assets/4c677649-6b03-4657-8c7e-3efc1fdeb2f1" />
 
 
 
