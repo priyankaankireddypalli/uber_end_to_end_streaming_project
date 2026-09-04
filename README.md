@@ -70,5 +70,8 @@ But when data is loaded via stream, we dont receive the data in good shape. Why?
 
 <img width="827" height="404" alt="image" src="https://github.com/user-attachments/assets/4c677649-6b03-4657-8c7e-3efc1fdeb2f1" />
 
+USING JINJA template to make the pipeline more dynamic.
+
+install the library - pip install jinja2
 
 
