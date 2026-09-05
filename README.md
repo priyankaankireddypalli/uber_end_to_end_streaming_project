@@ -74,4 +74,10 @@ USING JINJA template to make the pipeline more dynamic.
 
 install the library - pip install jinja2
 
+<img width="952" height="425" alt="image" src="https://github.com/user-attachments/assets/d8926da1-b7ae-425e-b2cc-37add1adad66" />
+
+
+<img width="803" height="407" alt="image" src="https://github.com/user-attachments/assets/7b3f1f9d-59e2-4146-9893-d22920d8ad62" />
+
+
 
